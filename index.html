@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Change Calculator</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="bower_components/animate.css/animate.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/app/styles/styles.css">
+<!-- endinject -->
+
+</head>
+
+<body>
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+
+
+
+<h1 class="text-center">Change Calculator</h1>
+
+<div class="transparent">
+<form class="form-inline text-center">
+<div id="amount"> 
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount</label>
+    <div class="input-group">
+    <div class="input-group-addon">$</div>
+    <input type="text" class="form-control" id="amountDue" placeholder="Amount due">
+    </div>
+  </div>
+   <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount</label>
+    <div class="input-group">
+    <div class="input-group-addon">$</div>
+    <input type="text" class="form-control" id="payment" placeholder="Payment">
+    </div></div></div>
+  <button id="calculate" type="button" class="btn btn-default">Calculate</button>
+</form><br>
+</div>
+
+<div id="hide" class="transbox">
+    <p id="output1">
+    </p>
+    <p id="output2">
+    </p>
+    <p id="output3">
+    </p>
+    <p id="output4">
+    </p>
+    <p id="output5">
+    </p>
+    <p id="output6">
+    </p>
+</div>
+
+<!-- inject:js -->
+<script src="/app/app.js"></script>
+<!-- endinject -->
+</body>
+</html>

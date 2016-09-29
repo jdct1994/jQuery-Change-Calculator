@@ -1,0 +1,79 @@
+body {
+		background: #000 url(../MoneyBackground.jpg) no-repeat center top;
+		background-size: cover;
+    width: 100%;
+    min-height: 100%;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: white;
+	text-shadow: 3px 3px 3px #323232;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    #amount {
+		margin: 50px;    
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #calculate {
+		margin-top: 25px;    
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+		margin-bottom: 25px;    
+    }
+}
+
+#hide {
+  display: none;
+  font-family: helvetica;
+  font-size: 1.5em;
+}
+
+.transparent {
+  opacity: 0.9;
+}
+
+#output1 {
+  margin-top: 10px;
+  color: green;
+  text-align: center;
+}
+
+#output2 {
+  color: green;
+  text-align: center;
+}
+
+#output3 {
+  color: green;
+  text-align: center;
+}
+
+#output4 {
+  color: green;
+  text-align: center;
+}
+
+#output5 {
+  color: green;
+  text-align: center;
+}
+
+#output6 {
+  color: green;
+  text-align: center;
+}
